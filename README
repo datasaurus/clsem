@@ -1,0 +1,5 @@
+The clsem (command line semaphore) application provides command line
+access to the Unix semaphore facility. Among other things, this
+allows scripts to spawn a chosen number of child processes, and
+spawn new children as current children exit. Thus, multi-process
+scripts can distribute processes over multiple cores. See clsem (1).
