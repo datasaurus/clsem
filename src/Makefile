@@ -12,7 +12,7 @@ clsem : clsem.c
 
 install : ${EXECS}
 	mkdir -p ${BINDIR}
-	cp ${EXECS} ${BINDIR}
+	cp -f -p ${EXECS} ${BINDIR}
 
 clean :
 	rm -fr ${BIN_EXECS} *core* *.dSYM
